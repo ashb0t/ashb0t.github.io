@@ -37,6 +37,10 @@ body {
 	#who img {
 		margin-top:15%;
 	}
+	
+	#footer {
+		text-align: center;
+	}
 }
 	
 .navbar {
@@ -192,6 +196,7 @@ body {
 
 #customers {
 	padding:5rem 0;
+	overflow:hidden;
 }
 
 #customers .carousel-indicators li {
@@ -204,4 +209,55 @@ body {
 
 #customers .carousel-indicators {
 	margin-bottom:-50px;
+}
+
+/* PRICING */
+
+#pricing {
+	background-color:#f6f6f6;
+	padding:5rem 0;
+	
+}
+
+#pricing .card .card-header {
+	background-color:#6e6e6e;
+	color:#fff;
+	
+}
+
+#pricing .card .standard {
+	background-color:#be2835;
+	font-size:1.3em;
+	padding:15px 0;
+}
+
+#pricing .card .card-header:hover {
+	background-color:#be2835;
+	transition: all 0.2s ease-in-out;
+}
+
+/* CONTACT */
+
+#contact {
+	padding:5rem 0;
+}
+
+/* FOOTER */
+
+#footer {
+	padding:2rem 0;
+	background-color:#484848;
+	color:#fff;
+}
+
+#footer a {
+	color:white;
+}
+
+#footer a:hover {
+	color:#be2835;
+}
+
+#footer .fa {
+	padding:0 5px;
 }
